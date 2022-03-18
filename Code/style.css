@@ -1,0 +1,294 @@
+body{
+position: relative;
+width: auto;
+height: 200vh;
+overflow-y: scroll;
+background: #25262A;}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/* Reset CSS */
+
+.logo{
+position: absolute;
+width: 239px;
+height: 29px;
+left: 56px;
+top: 36px;
+}
+
+.paretama_text{
+position: absolute;
+width: 119px;
+height: 26px;
+top: 50%;
+left: 0;
+transform: translate(-0%, -40%);
+font-family: 'Bebas';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+letter-spacing: 0.22em;
+color: #ffffff;
+}
+
+.rental_text{
+position: absolute;
+width: 108px;
+height: 29px;
+background: #FF0000;
+top: 50%;
+right: 0;
+transform: translate(-0%, -50%);
+border-radius: 5px;
+text-align: center;
+font-family: 'Bebas';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+letter-spacing: 0.22em;
+color: #000000;
+}
+.rental_text h1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.menu{
+z-index: 1;
+position: fixed;
+width: 496px;
+height: 40px;
+left: 472px;
+top: 30px;
+background-color: rgba(255, 255, 255, 0.200);
+border-radius: 10px;
+}
+.menu_container{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 426px;
+height: 23px;
+}
+.menu_container a{
+position: absolute;
+height: 23px;
+font-family: 'Bebas';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 23px;
+text-decoration: none;
+color: #ffffff;
+}
+.menu_container a:hover{
+color: rgb(0, 0, 0);
+background-color: rgb(255, 0, 0);
+border-radius: 4px;
+}
+.top{
+position: fixed;
+z-index: 3;
+}
+.cars_text{
+width: 33px;
+left: 3%;
+text-align: center;
+transform: translate(-3%);
+}
+.about_text{
+width: 59px;
+left: 28%;
+text-align: center;
+transform: translate(-28%);
+}
+.features_text{
+width: 62px;
+right: 28%;
+text-align: center;
+transform: translate(-28%);
+}
+.contact_text{
+width: 55px;
+right: 3%;
+text-align: center;
+transform: translate(-3%);
+}
+
+.login_signup{
+position: absolute;
+width: 199px;
+height: 39px;
+left: 1183px;
+top: 31px;
+}
+.signup_text{
+position: absolute;
+width: 90px;
+top: 50%;
+left: 0;
+text-decoration: none;
+transform: translate(-0%, -50%);
+font-family: 'Bebas';
+font-style: normal;
+font-weight: 450;
+font-size: 15px;
+letter-spacing: 5px;
+line-height: 23px;
+color: #FFFFFF;
+}
+.login_text:hover{
+color: white;
+background: #000000;
+}
+.login_text{
+position: absolute;
+width: 108px;
+height: 39px;
+display: flex;
+justify-content: center;
+align-items: center;
+top: 50%;
+right: 0;
+transform: translate(-0%, -50%);
+text-decoration: none;
+font-family: 'Bebas';
+letter-spacing: 5px;
+font-style: normal;
+font-weight: 450;
+font-size: 15px;
+line-height: 23px;
+color: #000000;
+background: #FF0000;
+border-radius: 10px;
+}
+.hero_section{
+position: absolute;
+width: 1300px;
+height: 450px;
+left: 70px;
+top: 80px;
+}
+.tagline1_text{
+width: 306px;
+height: 243px;
+position: absolute;top: 50%;
+left: 0;
+transform: translate(-0%, -50%);
+font-family: 'Light Pixel-7';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 127%;
+letter-spacing: 0.32em;
+color: #FF0000;
+}
+.tagline1_text span{
+color:rgb(255, 255, 255);
+}
+.hero_img{
+position: absolute;
+z-index: 0;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.tagline2_text{
+position: absolute;
+width: 268px;
+height: 264px;
+font-family: 'Light Pixel-7';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 185%;
+text-align: center;
+letter-spacing: 0.115em;
+text-transform: uppercase;
+color: #FFFFFF;
+top: 50%;
+right: 0;
+transform: translate(-0%, -50%);
+}
+.tagline2_text span{
+color:rgb(255, 0, 0);
+}
+.background{
+position: absolute;
+width: 1440px;
+height: 844px;
+left: 0px;
+top: 0px;
+}
+.background .rectangle{
+position: absolute;
+width: 720px;
+height: 844px;
+left: 360px;
+top: 0px;
+background: rgba(74, 84, 96, 0.5);
+border-radius: 0px 0px 100px 100px;
+}
+.background2{
+position: absolute;
+right: 0%;
+top: -50px;
+transform: scaleX(-1);
+/* background-color: blue; */
+}
+.background1{
+
+top: -50px;
+/* background-color: green; */
+}
+.Rendika{
+    position: absolute;
+    background-color:#000000;
+    width: 100%;
+    height: 100px;
+    top: 1000px;
+}

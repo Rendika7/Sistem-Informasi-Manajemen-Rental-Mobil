@@ -1,0 +1,253 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/* Reset CSS */
+body {
+background-color:#545454;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(105.68deg, #545454 1.21%, rgba(156, 162, 176, 0.953744) 18.35%, rgba(108, 112, 123, 0.779706) 82.84%, rgba(196, 198, 204, 0.5) 98.79%);
+    border-radius: 25px 0px 0px 25px;
+}
+.rectangle_background{
+position: absolute;
+width: 1186px;
+height: 648px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.login_form{
+width: 472.82px;
+height: 648px;
+position: absolute;
+top: 50%;
+left: 0;
+transform: translate(-0%, -50%);
+background: #FFFFFF;
+border-radius: 25px 0px 0px 25px;
+}
+.login_picture{
+position: absolute;
+width: 713px;
+height: 648px;
+top: 50%;
+right: 0;
+transform: translate(-0%, -50%);
+background: linear-gradient(180deg, rgba(66, 69, 76, 0.3) 0%, #42454C 100%);
+border-radius: 0px 25px 25px 0px;
+}
+.eclipse_background1{
+width: 446.73px;
+height: 446.73px;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius:50%;
+background: rgba(153, 155, 160, 0.25);
+filter: blur(14px);
+}
+.eclipse_background2{
+    position: relative;
+width: 560px;
+height: 560px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: rgba(153, 155, 160, 0.2);
+filter: blur(50px);
+}
+.gambar_login{
+position: absolute;
+bottom: 26px;
+right: 45px;
+top: 45%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.login_picture .tagline1{
+position: absolute;
+width: 400.44px;
+height: 39px;
+right: 198px;
+bottom: 76px;
+font-family: 'Mistral';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 145%;
+text-align: center;
+letter-spacing: 0.2em;
+color: #FFFFFF;
+transform: rotate(-8.64deg);
+}
+.login_picture .tagline2{
+    position: absolute;
+width: 97.08px;
+height: 41px;
+right: 278px;
+bottom: 53px;
+font-family: 'Mistral';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 145%;
+text-align: center;
+letter-spacing: 0.5em;
+color: #FFFFFF;
+transform: rotate(-8.64deg);
+}
+.login_picture .tagline3 {
+position: absolute;
+width: 380.51px;
+height: 41px;
+right: 69px;
+bottom: 33px;
+font-family: 'Mistral';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 145%;
+text-align: center;
+letter-spacing: 0.2em;
+color: #FFFFFF;
+transform: rotate(-8.64deg);
+}
+.login{
+position: absolute;
+width: 420px;
+height: 532px;
+left: 44px;
+top: 58px;
+}
+.logo{
+position: absolute;
+width: 239px;
+height: 29px;
+left: 56px;
+top: 36px;
+}
+.logo_container{
+position: absolute;
+width: 239px;
+height: 29px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.paretama_text{
+position: absolute;
+width: 119px;
+height: 26px;
+top: 50%;
+left: 0;
+transform: translate(-0%, -50%);
+font-family: 'Bebas';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+letter-spacing: 0.22em;
+color: #000000;
+}
+
+.rental_text{
+position: absolute;
+width: 108px;
+height: 29px;
+background: #FF0000;
+top: 50%;
+right: 0;
+transform: translate(-0%, -50%);
+border-radius: 10px;
+text-align: center;
+font-family: 'Bebas';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+letter-spacing: 0.22em;
+color: #ffffff;
+}
+.rental_text h1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.welcome_text{
+position: absolute;
+width: 243px;
+height: 46px;
+left: 60px;
+top: 67px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 145%;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+.please_text{
+position: absolute;
+width: 381px;
+height: 31px;
+left: 67px;
+top: 100px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 145%;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+color: #000000;
+}
